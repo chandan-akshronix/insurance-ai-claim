@@ -1,0 +1,639 @@
+﻿--- Debugging 'claims' collection ---
+Total documents in 'claims': 9
+
+--- Document 1 ---
+{
+  "_id": "69520945d6e9c639ac1c7da9",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "10:21",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nikho",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "nikhil",
+    "account_number": "4039u54",
+    "ifsc_code": "SBI",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abc",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "child"
+  },
+  "created_at": "2025-12-29 04:53:25.945000",
+  "updated_at": "2025-12-29 04:53:25.945000"
+}
+
+--- Document 2 ---
+{
+  "_id": "69520979d6e9c639ac1c7daa",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "10:21",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nikho",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "nikhil",
+    "account_number": "4039u54",
+    "ifsc_code": "SBI",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abc",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "child"
+  },
+  "created_at": "2025-12-29 04:54:17.027000",
+  "updated_at": "2025-12-29 04:54:17.027000"
+}
+
+--- Document 3 ---
+{
+  "_id": "695213ddd6e9c639ac1c7dab",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:06",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nil",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "anv",
+    "account_number": "4859845895",
+    "ifsc_code": "SBI000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "anv",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abv",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 05:38:37.084000",
+  "updated_at": "2025-12-29 05:38:37.084000"
+}
+
+--- Document 4 ---
+{
+  "_id": "6952140ad6e9c639ac1c7dac",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:06",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nil",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "anv",
+    "account_number": "4859845895",
+    "ifsc_code": "SBI000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "anv",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abv",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 05:39:22.271000",
+  "updated_at": "2025-12-29 05:39:22.271000"
+}
+
+--- Document 5 ---
+{
+  "_id": "6952141dd6e9c639ac1c7dad",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:06",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nil",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "anv",
+    "account_number": "4859845895",
+    "ifsc_code": "SBI000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "anv",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abv",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 05:39:41.987000",
+  "updated_at": "2025-12-29 05:39:41.987000"
+}
+
+--- Document 6 ---
+{
+  "_id": "695218f2d6e9c639ac1c7dae",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:21",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "alnd",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "nik",
+    "account_number": "49949875498",
+    "ifsc_code": "SBI0000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "bcc",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "anc",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 06:00:18.814000",
+  "updated_at": "2025-12-29 06:00:19.060000",
+  "documents": [
+    {
+      "filename": "Screenshot 2025-11-20 124813.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/2dae2bb3-351d-466f-b859-c2378a950591.png",
+      "documentId": 197,
+      "docType": "claim_document",
+      "category": "death-certificate"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214033.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/4792b33b-5b40-4157-b04c-f19b53b3b943.png",
+      "documentId": 198,
+      "docType": "claim_document",
+      "category": "claim-form"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214320.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/f27e6a50-7723-4f2f-ba93-fa1da3553cc3.png",
+      "documentId": 199,
+      "docType": "claim_document",
+      "category": "policy-document"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214320.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/3b86e3c8-39fb-446a-948e-f6f7e0e80935.png",
+      "documentId": 200,
+      "docType": "claim_document",
+      "category": "claimant-id"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 220835.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/23f1c254-336f-4d79-982f-2bda2b8a7d18.png",
+      "documentId": 201,
+      "docType": "claim_document",
+      "category": "claimant-address"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214320.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/d99d3697-301b-437e-b034-e03619acffbf.png",
+      "documentId": 202,
+      "docType": "claim_document",
+      "category": "nominee-proof"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 224234.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/607835cf-ca97-4141-a666-50d3bb0d7904.png",
+      "documentId": 203,
+      "docType": "claim_document",
+      "category": "bank-details"
+    }
+  ]
+}
+
+--- Document 7 ---
+{
+  "_id": "695219b3d6e9c639ac1c7daf",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:30",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "dlj;fn",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "nik",
+    "account_number": "49949875498",
+    "ifsc_code": "ABI0000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abj",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 06:03:31.252000",
+  "updated_at": "2025-12-29 06:03:31.555000",
+  "documents": [
+    {
+      "filename": "Screenshot 2025-11-12 205928.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/f3cb14b9-6eaf-4147-9f89-4dca94842e51.png",
+      "documentId": 204,
+      "docType": "claim_document",
+      "category": "death-certificate"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 211659.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/d5171756-744a-4f48-bc25-e6b62989f091.png",
+      "documentId": 205,
+      "docType": "claim_document",
+      "category": "claim-form"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 211659.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/6278cd7d-0aef-48ca-b4c7-07f74f71bb66.png",
+      "documentId": 206,
+      "docType": "claim_document",
+      "category": "policy-document"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212448.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/ecbe2a63-6496-4f07-86f5-953df185fc65.png",
+      "documentId": 207,
+      "docType": "claim_document",
+      "category": "claimant-id"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212511.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/2ce92e80-85d7-4751-b082-71d741eb546c.png",
+      "documentId": 208,
+      "docType": "claim_document",
+      "category": "claimant-address"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214033.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/2dc451ab-b654-42da-87ad-c272b0ea7930.png",
+      "documentId": 209,
+      "docType": "claim_document",
+      "category": "nominee-proof"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214320.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/8729ce78-62b7-4388-9059-722762b87a37.png",
+      "documentId": 210,
+      "docType": "claim_document",
+      "category": "bank-details"
+    }
+  ]
+}
+
+--- Document 8 ---
+{
+  "_id": "69521d5ed6e9c639ac1c7db0",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:45",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nnn",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "ajdsn",
+    "account_number": "proceed to Task 6",
+    "ifsc_code": "SBI",
+    "bank_name": "sbi",
+    "branch_name": "pue",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "ahn",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 06:19:10.910000",
+  "updated_at": "2025-12-29 06:19:11.267000",
+  "documents": [
+    {
+      "filename": "Screenshot 2025-11-12 205928.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/baa9bbfa-3699-4af4-8966-01052e88e706.png",
+      "documentId": 211,
+      "docType": "claim_document",
+      "category": "death-certificate"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 205928.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/f6245a50-72ef-49b3-8a4b-e6ffce67a7b5.png",
+      "documentId": 212,
+      "docType": "claim_document",
+      "category": "claim-form"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 211659.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/f18d4cab-0d0f-4600-aab4-ac4ae1e0bc97.png",
+      "documentId": 213,
+      "docType": "claim_document",
+      "category": "policy-document"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212448.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/975505cf-9ace-416d-bfe4-bd6c1aa6f526.png",
+      "documentId": 214,
+      "docType": "claim_document",
+      "category": "claimant-id"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214320.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/b11e72a5-558f-4027-94a0-886f4994c8a3.png",
+      "documentId": 215,
+      "docType": "claim_document",
+      "category": "claimant-address"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 214058.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/39b78bfd-b6a7-45fc-8a9d-cdf6c46ed310.png",
+      "documentId": 216,
+      "docType": "claim_document",
+      "category": "nominee-proof"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 220821.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/2d5178bd-2a3a-498a-a12b-b37642e96ace.png",
+      "documentId": 217,
+      "docType": "claim_document",
+      "category": "bank-details"
+    }
+  ]
+}
+
+--- Document 9 ---
+{
+  "_id": "69522904d6e9c639ac1c7db1",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "12:37",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": " nik",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "niknlg",
+    "account_number": "853690643",
+    "ifsc_code": "SBI",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "skln",
+    "cause_of_death": "alksnd\n",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 07:08:52.643000",
+  "updated_at": "2025-12-29 07:08:52.886000",
+  "documents": [
+    {
+      "filename": "Screenshot 2025-11-12 205928.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/ad0c2048-25c8-4d75-ae2b-0551960bc416.png",
+      "documentId": 218,
+      "docType": "claim_document",
+      "category": "death-certificate"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 211659.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/79ea6d1f-d885-4428-b354-88e0e8038548.png",
+      "documentId": 219,
+      "docType": "claim_document",
+      "category": "claim-form"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212426.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/fe22b9ff-0259-4f30-996c-cf0ac47db995.png",
+      "documentId": 220,
+      "docType": "claim_document",
+      "category": "policy-document"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212426.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/e7b62012-4e83-4400-8ede-f37925d2e3ee.png",
+      "documentId": 221,
+      "docType": "claim_document",
+      "category": "claimant-id"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212448.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/11c112c8-447e-4761-8299-e5d4f2fd0060.png",
+      "documentId": 222,
+      "docType": "claim_document",
+      "category": "claimant-address"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212426.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/0bcadac1-6a20-40a1-b8cd-aeba844f5d11.png",
+      "documentId": 223,
+      "docType": "claim_document",
+      "category": "nominee-proof"
+    },
+    {
+      "filename": "Screenshot 2025-11-12 212448.png",
+      "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/6/83c7cdff-9038-4671-b7f7-d562462d65e9.png",
+      "documentId": 224,
+      "docType": "claim_document",
+      "category": "bank-details"
+    }
+  ]
+}
+MATCH FOUND for 69522904d6e9c639ac1c7db1!
