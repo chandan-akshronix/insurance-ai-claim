@@ -1,0 +1,242 @@
+﻿--- Debugging 'claims' collection ---
+Total documents in 'claims': 9
+
+--- Document 1 ---
+{
+  "_id": "69520945d6e9c639ac1c7da9",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "10:21",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nikho",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "nikhil",
+    "account_number": "4039u54",
+    "ifsc_code": "SBI",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abc",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "child"
+  },
+  "created_at": "2025-12-29 04:53:25.945000",
+  "updated_at": "2025-12-29 04:53:25.945000"
+}
+
+--- Document 2 ---
+{
+  "_id": "69520979d6e9c639ac1c7daa",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "10:21",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nikho",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "nikhil",
+    "account_number": "4039u54",
+    "ifsc_code": "SBI",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abc",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "child"
+  },
+  "created_at": "2025-12-29 04:54:17.027000",
+  "updated_at": "2025-12-29 04:54:17.027000"
+}
+
+--- Document 3 ---
+{
+  "_id": "695213ddd6e9c639ac1c7dab",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:06",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nil",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "anv",
+    "account_number": "4859845895",
+    "ifsc_code": "SBI000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "anv",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abv",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 05:38:37.084000",
+  "updated_at": "2025-12-29 05:38:37.084000"
+}
+
+--- Document 4 ---
+{
+  "_id": "6952140ad6e9c639ac1c7dac",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:06",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nil",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "anv",
+    "account_number": "4859845895",
+    "ifsc_code": "SBI000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "anv",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abv",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 05:39:22.271000",
+  "updated_at": "2025-12-29 05:39:22.271000"
+}
+
+--- Document 5 ---
+{
+  "_id": "6952141dd6e9c639ac1c7dad",
+  "user_id": "6",
+  "userId": "6",
+  "claim_type": "life",
+  "policy_id": "7",
+  "status": "submitted",
+  "intimation_date": "2025-12-29",
+  "intimation_time": "11:06",
+  "incident_details": {
+    "incident_date": "2025-12-29",
+    "incident_time": "",
+    "incident_location": "",
+    "incident_description": ""
+  },
+  "claimant_info": {
+    "name": "nil",
+    "phone": "9011194382",
+    "email": "arjune.nikhil82@gmail.com",
+    "address": "Nagpur",
+    "city": "Nagpur",
+    "pincode": "440010"
+  },
+  "bank_details": {
+    "account_holder_name": "anv",
+    "account_number": "4859845895",
+    "ifsc_code": "SBI000",
+    "bank_name": "sbi",
+    "branch_name": "pune",
+    "account_type": "savings"
+  },
+  "death_details": {
+    "deceased_name": "anv",
+    "deceased_dob": "",
+    "deceased_age": "",
+    "date_of_death": "2025-12-29",
+    "time_of_death": "",
+    "place_of_death": "abc",
+    "cause_of_death": "abv",
+    "death_type": "natural",
+    "hospital_name": "",
+    "claimant_relation": "spouse"
+  },
+  "created_at": "2025-12-29 05:39:41.987000",
+  "updated_at": "2025-12-29 05:39:41.987000"
+}
