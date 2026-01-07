@@ -1,0 +1,29 @@
+# FastAPI and Web Server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# LangChain and AI
+langchain>=0.1.10
+langchain-core>=0.3.40
+langchain-openai>=0.3.7
+langgraph>=0.5.0
+openai>=1.65.2
+
+# MongoDB
+motor>=3.1.1
+pymongo>=4.6.1
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Validation
+pydantic>=2.7.4
+
+# HTTP Client
+httpx>=0.28.1
+
+# Utilities
+python-dateutil>=2.8.2
+
+psycopg2-binary>=2.9.9
+PyMuPDF>=1.23.0
