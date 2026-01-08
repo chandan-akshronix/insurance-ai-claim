@@ -3,7 +3,7 @@ import requests
 import json
 
 def run_claim_test():
-    claim_id = "695b47689b78d486cbc6752d"
+    claim_id = "695ca98c5b1273e34b44d1dd"
     url = "http://localhost:8002/submit_claim"
     
     payload = {

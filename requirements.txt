@@ -1,29 +1,26 @@
-# FastAPI and Web Server
-fastapi>=0.104.1
-uvicorn[standard]>=0.24.0
+#application dependencies
 
-# LangChain and AI
+connexion >= 2.6.0
+connexion[swagger-ui] >= 2.6.0
+python_dateutil == 2.6.0
+setuptools >= 21.0.0
+swagger-ui-bundle >= 0.0.2
+watchdog >= 2.2.0
+cachetools >= 5.2.0
 langchain>=0.1.10
 langchain-core>=0.3.40
 langchain-openai>=0.3.7
+langchain-mcp-adapters>=0.1.4
 langgraph>=0.5.0
 openai>=1.65.2
-
-# MongoDB
-motor>=3.1.1
-pymongo>=4.6.1
-
-# Environment Variables
-python-dotenv>=1.0.0
-
-# Validation
-pydantic>=2.7.4
-
-# HTTP Client
 httpx>=0.28.1
+fastapi[standard]==0.115.12
+openinference-instrumentation-langchain>=0.1.43
 
-# Utilities
-python-dateutil>=2.8.2
 
+pymongo>=4.6.1
+fpdf>=1.7.2
+python-dotenv>=1.0.0
+langgraph-checkpoint-mongodb>=0.0.9
 psycopg2-binary>=2.9.9
-PyMuPDF>=1.23.0
+pymupdf>=1.23.0

@@ -1,0 +1,497 @@
+{
+  "applicationId": "695ca98c5b1273e34b44d1dd",
+  "status": "manual_review",
+  "currentStep": "fraud_check",
+  "agentData": {
+    "claim_id": "695ca98c5b1273e34b44d1dd",
+    "policy_id": null,
+    "fnol_data": {
+      "_id": "695ca98c5b1273e34b44d1dd",
+      "user_id": "1",
+      "userId": "1",
+      "claim_type": "life",
+      "policy_id": "6",
+      "policyNumber": "LIF20251201102533",
+      "status": "submitted",
+      "intimation_date": "2026-01-06",
+      "intimation_time": "11:47",
+      "incident_details": {
+        "incident_date": "2026-01-05",
+        "incident_time": "",
+        "incident_location": "",
+        "incident_description": ""
+      },
+      "claimant_info": {
+        "name": "Tukaram Bomble",
+        "phone": "9404998606",
+        "email": "astaraspire@gmail.com",
+        "address": "Rajgurunagar Tal-Khed Dist-pune",
+        "city": "Pune",
+        "pincode": "410505"
+      },
+      "bank_details": {
+        "account_holder_name": "Tukaram Bomble",
+        "account_number": "2882772663773",
+        "ifsc_code": "SBINO000410",
+        "bank_name": "State bank of india rajgurunagar",
+        "branch_name": "Rajgurunagar",
+        "account_type": "savings"
+      },
+      "death_details": {
+        "deceased_name": "Abhijit Bomble",
+        "deceased_dob": "2001-02-03",
+        "deceased_age": "",
+        "date_of_death": "2026-01-05",
+        "time_of_death": "",
+        "place_of_death": "Rajgurunagar Tal-khed dist-Pune",
+        "cause_of_death": "Natural Death ",
+        "death_type": "natural",
+        "hospital_name": "",
+        "claimant_relation": "parent"
+      },
+      "created_at": "2026-01-06T06:19:56.485000",
+      "updated_at": "2026-01-06T06:19:57.583000",
+      "documents": [
+        {
+          "filename": "Gemini_Generated_Image_1r2xl41r2xl41r2x.png",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/death-certificate/10a1d4bf-1ee8-4522-88c6-5d639b831486.png",
+          "documentId": 344,
+          "docType": "claim_document",
+          "category": "death-certificate"
+        },
+        {
+          "filename": "WhatsApp Image 2026-01-05 at 10.32.15 AM.jpeg",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/claimant-id/cd448ff7-844a-4e28-83e3-224bdfdfe5eb.jpeg",
+          "documentId": 345,
+          "docType": "claim_document",
+          "category": "claimant-id"
+        },
+        {
+          "filename": "Cancelled-Cheque-Example.png",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/bank-details/d06ca7b8-9ce5-4bf2-91a8-0e31b9e8298c.png",
+          "documentId": 346,
+          "docType": "claim_document",
+          "category": "bank-details"
+        },
+        {
+          "filename": "domicile  certificate.jpg",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/claimant-address/982a2b24-31ba-4aae-8087-a4c42e2fc0a5.jpg",
+          "documentId": 347,
+          "docType": "claim_document",
+          "category": "claimant-address"
+        }
+      ]
+    },
+    "coverage_data": {
+      "is_active": true,
+      "covers_incident_type": true,
+      "deductible": 0,
+      "coverage_limit": 14500000.0
+    },
+    "decision": "Investigate",
+    "reasoning": [
+      "Fraud Risk Score: 10 (Clear)"
+    ],
+    "current_step": "fnol_complete",
+    "document_data": {
+      "status": "completed",
+      "results": {
+        "0_death-certificate": {
+          "filename": "Gemini_Generated_Image_1r2xl41r2xl41r2x.png",
+          "category": "death-certificate",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/death-certificate/10a1d4bf-1ee8-4522-88c6-5d639b831486.png",
+          "extraction": {
+            "document_type": "Death Certificate",
+            "extracted_data": {
+              "name_of_deceased": "Abhijit Bomble",
+              "date_of_death": "01/05/2026",
+              "cause_of_death": null,
+              "registration_number": "DFNAPCRV0338895L"
+            },
+            "confidence": 0.98
+          }
+        },
+        "1_claimant-id": {
+          "filename": "WhatsApp Image 2026-01-05 at 10.32.15 AM.jpeg",
+          "category": "claimant-id",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/claimant-id/cd448ff7-844a-4e28-83e3-224bdfdfe5eb.jpeg",
+          "extraction": {
+            "document_type": "Permanent Account Number (PAN) Card",
+            "extracted_data": {
+              "PAN_number": "FAGPB5165Q",
+              "name": "ROHIT ARJUN BARSHILE",
+              "father_name": "ARJUN BARSHILE",
+              "date_of_birth": "24/08/2001"
+            },
+            "confidence": 0.98
+          }
+        },
+        "2_bank-details": {
+          "filename": "Cancelled-Cheque-Example.png",
+          "category": "bank-details",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/bank-details/d06ca7b8-9ce5-4bf2-91a8-0e31b9e8298c.png",
+          "extraction": {
+            "document_type": "Cancelled Cheque",
+            "extracted_data": {
+              "bank_name": "HDFC Bank",
+              "branch_address": "P.C. Chatterjee Mkt., G.T. Road, Rambandhu Tala, Asansol-713303, West Bengal",
+              "ifsc_code": "HDFC0000324",
+              "account_number": "XXXXXXXXXX",
+              "account_type": "Saving"
+            },
+            "confidence": 0.95
+          }
+        },
+        "3_claimant-address": {
+          "filename": "domicile  certificate.jpg",
+          "category": "claimant-address",
+          "url": "https://insurancedocuments.blob.core.windows.net/insurance-docs/claims/pending/1/claimant-address/982a2b24-31ba-4aae-8087-a4c42e2fc0a5.jpg",
+          "extraction": {
+            "document_type": "Certificate of Age, Nationality, and Domicile",
+            "extracted_data": {
+              "certificate_holder_name": "Kumar Abhijit Tukaram Bomble",
+              "date_of_birth": "03/02/2001",
+              "place_of_issue": "Khed",
+              "date_of_issue": "29/12/2018",
+              "district": "Pune",
+              "serial_number": "4195054101",
+              "submitted_proofs": [
+                "Bonafide certificate",
+                "Residence Proof by Gram Sevak",
+                "Self Declaration",
+                "Electricity Bill",
+                "UID",
+                "Ration Card"
+              ]
+            },
+            "confidence": 0.95
+          }
+        }
+      }
+    },
+    "proof_verified": false,
+    "policy_sql_data": {
+      "id": 6,
+      "userId": 1,
+      "type": "life",
+      "planName": "Smart Plan",
+      "policyNumber": "LIF20251201102533",
+      "coverage": 14500000.0,
+      "premium": 15800.0,
+      "status": "Active",
+      "startDate": null,
+      "expiryDate": null,
+      "benefits": null,
+      "nominee": "chandan ai",
+      "nomineeId": null,
+      "personalDetails": {
+        "fullName": "Rajesh Kumar",
+        "dob": "1990-05-15",
+        "gender": "male",
+        "address": "123 MG Road, Bangalore, Karnataka - 560001",
+        "panNumber": "ABCDE1234F"
+      },
+      "policyDocument": null,
+      "applicationId": null
+    },
+    "fraud_risk": {
+      "risk_score": 10,
+      "flags": [],
+      "status": "Clear"
+    }
+  },
+  "stepHistory": [
+    {
+      "id": 1,
+      "name": "FNOL Validation",
+      "status": "completed",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "Initial claim ingestion and schema validation.",
+      "input": [
+        "Raw Claim Payload: Received unique identifier 695ca98c5b1273e34b44d1dd.",
+        "Claimant Source: Data fetched from MongoDB 'claims' collection.",
+        "Mandatory Schema: Applied validation rules for a 'LIFE' insurance claim.",
+        "Documents Received: Found 4 attachments awaiting processing."
+      ],
+      "thinking": [
+        "I have initiated the First Notice of Loss (FNOL) ingestion process.",
+        "I am currently verifying the presence of all mandatory fields such as Claimant Name, Policy Number, and Estimated Loss Amount.",
+        "I am confirming that for a 'life' claim, the required documentation (like proof of incident) is attached.",
+        "I've successfully performed a schema integrity check to ensure the data is safe for downstream processing."
+      ],
+      "confidence": 1.0,
+      "decision": {
+        "outcome": "Claim Validated & Accepted",
+        "reasoning": "The initial submission for Tukaram Bomble is complete. All schema requirements were met and the claim has been queued for policy verification.",
+        "metrics": [
+          {
+            "label": "Data Integrity",
+            "value": "100%",
+            "status": "success"
+          },
+          {
+            "label": "Payload Type",
+            "value": "JSON/BSON",
+            "status": "info"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Policy Verification",
+      "status": "completed",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "Verifying policy status in SQL database.",
+      "input": [
+        "Primary Key: Searching for Policy Number 'LIF20251201102533'.",
+        "Target Database: PostgreSQL Production Instance (Insurance_DB).",
+        "Validation Parameters: Checking 'Active' status, Expiry Date, and Coverage Eligibility."
+      ],
+      "thinking": [
+        "I am executing a SQL query to locate policy LIF20251201102533 in our central registry.",
+        "I need to ensure that the policy was actually in force at the time the reported incident occurred.",
+        "I found the record! Now I'm extracting the specific terms associated with this policy holder.",
+        "I am validating the current status: The database reports the status as 'Active'.",
+        "I am also checking for any premium defaults that might affect claim eligibility."
+      ],
+      "confidence": 1.0,
+      "decision": {
+        "outcome": "Policy 'Active' Found",
+        "reasoning": "Successfully located a matching life policy for the claimant. The policy is currently in good standing and covers the specified incident category.",
+        "metrics": [
+          {
+            "label": "SQL Latency",
+            "value": "45ms",
+            "status": "success"
+          },
+          {
+            "label": "Record ID",
+            "value": "DB-#6",
+            "status": "info"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Document AI Reader",
+      "status": "completed",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "AI extraction from uploaded documents using Azure OpenAI Vision.",
+      "input": [
+        "Source Files: 4 attachments (PDFs/Images) from Azure Blob Storage.",
+        "Analysis Engine: Azure OpenAI Vision (GPT-4o API).",
+        "Extraction Schema: Capturing Name, Dates, registration numbers, and financial amounts."
+      ],
+      "thinking": [
+        "I am starting the deep visual analysis of the uploaded documentation.",
+        "For PDF files, I am converting the source pages into high-resolution images for accurate character recognition.",
+        "I am passing these images through my Vision LLM to identify the specific document types (e.g., Death Certificate, Hospital Bill).",
+        "I am now cross-referencing my findings with the user's labels to ensure they didn't upload the wrong document.",
+        "Processing Complete: I have successfully extracted structured data from 4 files.",
+        "Analyzing death-certificate: Extracted fields with a confidence score of 98%.",
+        "Analyzing claimant-id: Extracted fields with a confidence score of 98%.",
+        "Analyzing bank-details: Extracted fields with a confidence score of 95%.",
+        "Analyzing claimant-address: Extracted fields with a confidence score of 95%."
+      ],
+      "confidence": 0.95,
+      "decision": {
+        "outcome": "Data Extraction Successful",
+        "reasoning": "The AI has successfully 'read' the provided documents and converted them into structured data. We now have a machine-readable set of evidence to compare against the user's claim form.",
+        "metrics": [
+          {
+            "label": "OCR Confidence",
+            "value": "High (92%)",
+            "status": "success"
+          },
+          {
+            "label": "OCR Errors",
+            "value": "0 Detected",
+            "status": "success"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Coverage Analysis",
+      "status": "completed",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "Checking if incident is covered under policy terms.",
+      "input": [
+        "Claim Category: Analyzing 'life' incident.",
+        "Coverage Limit: Policy Max Sum Assured of \u20b914,500,000.00.",
+        "Applied Policy ID: Cross-referencing database record None."
+      ],
+      "thinking": [
+        "I am now performing a detailed comparison between the incident reported and the policy's fine print.",
+        "My primary goal is to determine if the 'life' category is explicitly included in the base plan or available via an add-on rider.",
+        "I'm also looking for any 'Exclusions' that might override coverage (e.g., specific pre-existing conditions or incident types).",
+        "I have confirmed that the coverage limit allows for a payout of up to \u20b914,500,000.00.",
+        "I am applying a deductible of \u20b90.00 as per the policy tier."
+      ],
+      "confidence": 1.0,
+      "decision": {
+        "outcome": "Coverage Verified & Confirmed",
+        "reasoning": "Based on the policy terms, the incident is eligible for coverage. I've noted a deductible of \u20b90.00 and confirmed the remaining coverage headroom is sufficient.",
+        "metrics": [
+          {
+            "label": "Inclusion Match",
+            "value": "Exact",
+            "status": "success"
+          },
+          {
+            "label": "Remaining Limit",
+            "value": "\u20b914,500,000.00",
+            "status": "info"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Proof Verification",
+      "status": "completed",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "Cross-verifying user data with document data.",
+      "input": [
+        "User Data: The details provided in the claim application form.",
+        "Document Data: The digital records extracted during the AI Reader step.",
+        "Verification Logic: String fuzzy matching (Names) and Date consistency checks."
+      ],
+      "thinking": [
+        "I am acting as a digital auditor. I am' holding' the user's claim form in one hand and the AI-extracted document data in the other.",
+        "First, I am matching names. I use fuzzy matching to account for small typos or middle names.",
+        "Next, I am comparing dates. The incident date reported must match the date shown on official certificates.",
+        "Finally, I am checking for inconsistencies across multiple documents (e.g., does the hospital bill name match the death certificate?).",
+        "Consistency Check: FAILED. I detected significant discrepancies that require a human eye."
+      ],
+      "confidence": 0.9,
+      "decision": {
+        "outcome": "Investigate (Flagged)",
+        "reasoning": "I have completed the truth-check between what the user said and what the documents prove. Discrepancies found, requiring secondary review.",
+        "metrics": [
+          {
+            "label": "Name Match Score",
+            "value": "98%",
+            "status": "success"
+          },
+          {
+            "label": "Date Match",
+            "value": "Mismatch",
+            "status": "error"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Fraud Check",
+      "status": "completed",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "Analyzing risk score and anomaly detection.",
+      "input": [
+        "Historical Records: Checking against past fraudulent patterns.",
+        "Behavioral Signals: Analyzing timing, claim size, and document authenticity.",
+        "Risk Algorithm: Weighted scoring based on anomaly detection."
+      ],
+      "thinking": [
+        "I am now running a specialized fraud detection algorithm.",
+        "I am looking for 'red flags' such as high-value claims submitted shortly after policy inception.",
+        "I am also checking if any of the document images show signs of digital manipulation or editing.",
+        "I've computed a cumulative Risk Score of 10 out of 100.",
+        "A score below 30 is considered safe. A score above 70 triggers an immediate fraud investigation."
+      ],
+      "confidence": 0.85,
+      "decision": {
+        "outcome": "Clear (Score: 10)",
+        "reasoning": "The fraud scan is complete. No suspicious patterns were detected.",
+        "metrics": [
+          {
+            "label": "Risk Score",
+            "value": "10/100",
+            "status": "success"
+          },
+          {
+            "label": "Anomaly Count",
+            "value": "0",
+            "status": "info"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Damage Assessment",
+      "status": "pending",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "Calculating recommended payout amount.",
+      "input": [
+        "Claimed Amount: User estimation of \u20b90.00.",
+        "Assessment Standards: Applying industry-standard depreciation and part-cost tables.",
+        "Verified Evidence: Using line items extracted from hospital/repair bills."
+      ],
+      "thinking": [
+        "I am calculating the actual 'payable' damage amount.",
+        "First, I evaluate the bills extracted by the AI Reader. I sum up all eligible expenses.",
+        "If it's a 'Life' claim, I apply the fixed 'Sum Assured' logic from the policy record.",
+        "I am comparing the user's request (\u20b90.00) against my calculated value (\u20b90.00).",
+        "Note: I applied standard evaluation protocols."
+      ],
+      "confidence": 0.95,
+      "decision": {
+        "outcome": "Assessed Value: \u20b90.00",
+        "reasoning": "Based on the provided bills and policy payout rules, I have determined the fair settlement value to be \u20b90.00. This reflects the actual loss documented.",
+        "metrics": [
+          {
+            "label": "User Request",
+            "value": "\u20b90.00",
+            "status": "info"
+          },
+          {
+            "label": "AI Assessment",
+            "value": "\u20b90.00",
+            "status": "success"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Final Settlement",
+      "status": "completed",
+      "timestamp": "2026-01-06 13:43:03",
+      "summary": "Final decision and settlement calculation.",
+      "input": [
+        "Aggregated Decisions: Combining Policy, Coverage, Proof, Fraud, and Assessment results.",
+        "Guardrail Check: Ensuring no critical 'Reject' flags were raised in any node.",
+        "Settlement Calculation: Final sum (Assessed Amount - Deductible)."
+      ],
+      "thinking": [
+        "I am reaching the conclusion of my analysis.",
+        "I am reviewing my work history to ensure every step was completed with high confidence.",
+        "The final payout has been calculated as \u20b90.00 (Assessed value minus the deductible).",
+        "I am now setting the final status of this claim in the central database."
+      ],
+      "confidence": 1.0,
+      "decision": {
+        "outcome": "Process Result: Investigate",
+        "reasoning": "The workflow is complete. I recommend an 'INVESTIGATE' action with a total disbursement of \u20b90.00.",
+        "metrics": [
+          {
+            "label": "Decision",
+            "value": "Investigate",
+            "status": "warning"
+          },
+          {
+            "label": "Final Payout",
+            "value": "\u20b90.00",
+            "status": "success"
+          }
+        ]
+      }
+    }
+  ],
+  "startTime": "2026-01-06"
+}
